@@ -2,7 +2,7 @@
 /**
  */
 
-namespace bright\yii\owlcarousel;
+namespace bright\yii2\owlcarousel;
 
 use yii\web\AssetBundle;
 
@@ -13,7 +13,7 @@ use yii\web\AssetBundle;
  */
 class OwlCarouselAsset extends AssetBundle
 {
-    public $basePath = '@bower/owl.carousel/dist';
+    public $sourcePath = '@bower/owl.carousel/dist';
     public $css = [
         'assets/owl.carousel.min.css',
     ];
