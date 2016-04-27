@@ -1,0 +1,23 @@
+{
+    "name": "bright-tech/owlcarousel",
+    "description": "为Yii2 开发的 组件库",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "GNU GENERAL PUBLIC LICENSE",
+    "authors": [
+        {
+            "name": "BrightTech",
+            "email": "xiao.yanqi@bright-tech.cn"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "bower-asset/owl.carousel":"*"
+    },
+    "autoload": {
+        "psr-4": {
+            "bright\\yii2\\owlcarousel\\": ""
+        }
+    }
+}

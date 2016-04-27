@@ -1,0 +1,8 @@
+.project
+.buildpath
+.settings
+.DS_Store
+backend/.DS_Store
+vendor
+composer.lock
+frontend/.sass-cache
